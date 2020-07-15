@@ -1,0 +1,87 @@
+#app {
+  height: 0;
+  margin: 0;
+  padding: 0;
+}
+
+#body{
+  background-color: black;
+  height: 100vh;
+}
+
+#header {
+  height: 8vh;
+  width: 100vw;
+  background-color: rgba(0, 174, 255, 0.808);
+  margin: 0;
+  padding: 0;
+}
+
+#home{
+  font-weight: bold;
+  position: relative;
+  left: 40px;
+  top: 10px;
+
+}
+
+.profile-container{
+  margin: 100px;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start;
+  background-color: white;
+  height: 50%;
+}
+
+#profile-position{
+  position: relative;
+  left: 40px;
+}
+
+#name{
+  font-weight: bold;
+  font-size: 30px;
+  text-decoration: underline;
+  text-decoration-color: rgba(0, 174, 255, 0.808);
+}
+
+#bio{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+}
+.property {
+  font-weight: bold;
+}
+
+
+.buttons-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-buttons{
+  height: 10%;
+  width: 10%;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#current-index{
+  width: 10vw;
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+  left: 400%;
+  bottom: 80%;
+  color: black;
+}
